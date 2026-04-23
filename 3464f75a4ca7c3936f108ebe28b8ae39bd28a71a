@@ -1,0 +1,14 @@
+README.md
+  h_9b907d5b46313e 70-72,74,76,78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "3464f75a4ca7c3936f108ebe28b8ae39bd28a71a",
+  "prompts": {},
+  "humans": {
+    "h_9b907d5b46313e": {
+      "author": "Yogananda.b"
+    }
+  }
+}
