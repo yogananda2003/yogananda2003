@@ -13,15 +13,9 @@
 
 ### THE LEDE
 
-<<<<<<< HEAD
-> **Y**ogananda is a final-year Computer Science (Data Science) student at CMRIT, Bangalore — but that's the least interesting sentence in this document. He writes software that *thinks*. He builds chatbots that remember, vision systems that recognize, and recommendation engines that reason. His tool of choice is Python; his playground is the open-source AI stack; his mission is to make intelligence accessible.
-
-*He is, in his own words, "still early — but early with intent."*
-=======
 > **Y**ogananda is a final-year Computer Science (Data Science) student at CMRIT, Bangalore — but that's the least interesting sentence in this document. He writes software that *thinks*. He builds chatbots that remember, vision systems that recognize, and recommendation engines that reason. By day, he's interning at **Mindsprint** as a Business Head on the Chief AI Officer's team, inside the Enterprise Architecture Group — translating AI capability into business outcomes. By night, he's shipping personal projects in Python, LangChain, and AWS Bedrock.
 
 *He is, in his own words, "early, but already in the room."*
->>>>>>> 6016a58 (v4)
 
 </td>
 <td width="3%"></td>
@@ -31,14 +25,6 @@
 
 **T H E   S T A T S**
 
-<<<<<<< HEAD
-`EDUCATION` &nbsp;&nbsp; 8.69 CGPA
-`SCHOOL` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CMRIT, Bangalore
-`GRADUATING` &nbsp; 2026
-`BASED IN` &nbsp;&nbsp;&nbsp; Bangalore, IN
-`LANGUAGES` &nbsp;&nbsp; EN · TE · KN · HI
-`STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open to work
-=======
 `CURRENTLY` &nbsp;&nbsp; Intern @ Mindsprint
 `TEAM` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business Head, CAIO
 `GROUP` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enterprise Architecture
@@ -46,7 +32,6 @@
 `GRADUATING` &nbsp; 2026
 `BASED IN` &nbsp;&nbsp;&nbsp; Bangalore, IN
 `LANGUAGES` &nbsp;&nbsp; EN · TE · KN · HI
->>>>>>> 6016a58 (v4)
 
 </td>
 </tr>
@@ -82,13 +67,15 @@
 
 `№ 01  ·  ENTERPRISE AI`
 
-## Deals Print
+№ 01  ·  ENTERPRISE AI  
 
-### *The pre-sales problem, solved by a prompt.*
+## J.A.R.V.I.S  
 
-**P**roduct owners walk into client meetings under-prepared. So we built a workflow that reads a client's stated requirements, maps them against our full product catalog, and returns the three offerings most likely to close. Result: data-driven suggestions, fewer wasted demos, and a pre-sales cycle that respects everyone's time.
+### *Just A Rather Very Intelligent System — fully offline, always ready.*  
 
-`React`&nbsp;&nbsp;`FastAPI`&nbsp;&nbsp;`AWS Bedrock`&nbsp;&nbsp;`MongoDB`
+**I**nspired by Iron Man, this project reimagines what a true personal assistant can be—private, fast, and entirely local. J.A.R.V.I.S listens for voice triggers, understands natural language commands, and executes tasks directly on the system without relying on external APIs or cloud services. It can launch applications like Chrome, Spotify, and VS Code instantly, automate repetitive desktop workflows, and respond conversationally through voice. Powered by local LLMs via Ollama and Whisper-based speech recognition, it maintains context with long-term memory using SQLite while running on a modular, agent-based architecture. Result: a secure, real-time AI assistant that delivers intelligent automation with zero data exposure and complete user control.  
+
+`Python`  `FastAPI`  `Whisper`  `Ollama`  `SQLite`
 
 </td>
 <td width="4%"></td>
