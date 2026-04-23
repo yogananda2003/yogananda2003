@@ -13,9 +13,9 @@
 
 ### THE LEDE
 
-> **Y**ogananda is a final-year Computer Science (Data Science) student at CMRIT, Bangalore — but that's the least interesting sentence in this document. He writes software that *thinks*. He builds chatbots that remember, vision systems that recognize, and recommendation engines that reason. His tool of choice is Python; his playground is the open-source AI stack; his mission is to make intelligence accessible.
+> **Y**ogananda is a final-year Computer Science (Data Science) student at CMRIT, Bangalore — but that's the least interesting sentence in this document. He writes software that *thinks*. He builds chatbots that remember, vision systems that recognize, and recommendation engines that reason. By day, he's interning at **Mindsprint** as a Business Head on the Chief AI Officer's team, inside the Enterprise Architecture Group — translating AI capability into business outcomes. By night, he's shipping personal projects in Python, LangChain, and AWS Bedrock.
 
-*He is, in his own words, "still early — but early with intent."*
+*He is, in his own words, "early, but already in the room."*
 
 </td>
 <td width="3%"></td>
@@ -25,12 +25,13 @@
 
 **T H E   S T A T S**
 
-`EDUCATION` &nbsp;&nbsp; 8.69 CGPA
-`SCHOOL` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CMRIT, Bangalore
+`CURRENTLY` &nbsp;&nbsp; Intern @ Mindsprint
+`TEAM` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business Head, CAIO
+`GROUP` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enterprise Architecture
+`EDUCATION` &nbsp;&nbsp; 8.69 CGPA · CMRIT
 `GRADUATING` &nbsp; 2026
 `BASED IN` &nbsp;&nbsp;&nbsp; Bangalore, IN
 `LANGUAGES` &nbsp;&nbsp; EN · TE · KN · HI
-`STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open to work
 
 </td>
 </tr>
@@ -62,23 +63,7 @@
 <tr>
 <td width="48%" valign="top">
 
-<br/>
 
-`№ 01  ·  ENTERPRISE AI`
-
-## Deals Print
-
-### *The pre-sales problem, solved by a prompt.*
-
-**P**roduct owners walk into client meetings under-prepared. So we built a workflow that reads a client's stated requirements, maps them against our full product catalog, and returns the three offerings most likely to close. Result: data-driven suggestions, fewer wasted demos, and a pre-sales cycle that respects everyone's time.
-
-`React`&nbsp;&nbsp;`FastAPI`&nbsp;&nbsp;`AWS Bedrock`&nbsp;&nbsp;`MongoDB`
-
-</td>
-<td width="4%"></td>
-<td width="48%" valign="top">
-
-<br/>
 
 `№ 02  ·  COMPUTER VISION`
 
