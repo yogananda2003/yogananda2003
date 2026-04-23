@@ -1,120 +1,275 @@
-<div align="center">
+<!-- ═══════════════════════════════════════════════════════════════
+     THE YOGANANDA JOURNAL  ·  ISSUE 01
+     A GitHub profile for yogananda2003
+     ═══════════════════════════════════════════════════════════════ -->
 
-<!-- ─────────────────────────  ANIMATED HEADER  ───────────────────────── -->
+![masthead](./assets/masthead.svg)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=28&duration=2800&pause=800&color=8B5CF6&center=true&vCenter=true&width=720&lines=Hey%2C+I'm+Yogananda+%F0%9F%91%8B;Aspiring+AI+Developer;GenAI+%7C+LLMs+%7C+RAG+%7C+Context+Engineering;Building+intelligent+systems+with+Python" alt="Typing animation" />
-</a>
-
-<br/>
-
-<!-- Profile stat chips -->
-<img src="https://komarev.com/ghpvc/?username=yogananda2003&label=Profile%20views&color=8B5CF6&style=flat-square" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/yogananda2003?label=Followers&style=flat-square&color=8B5CF6" alt="Followers" />
-<img src="https://img.shields.io/badge/Focus-GenAI%20%7C%20LLMs%20%7C%20RAG-blueviolet?style=flat-square" alt="Focus" />
-<img src="https://img.shields.io/badge/Open%20to-Internships%20%26%20Full--time-success?style=flat-square" alt="Open to work" />
-
-</div>
-
----
-
-## 🧠 About Me
-
-```python
-class Yogananda:
-    def __init__(self):
-        self.name        = "Yogananda B"
-        self.role        = "Aspiring AI Developer"
-        self.education   = "B.E. CSE (Data Science) @ CMRIT, Bangalore · Class of 2026"
-        self.focus       = ["Generative AI", "LLMs", "RAG", "Context Engineering"]
-        self.stack       = ["Python", "LangChain", "AWS Bedrock", "Hugging Face"]
-        self.currently   = "Shipping AI-first projects that solve real problems"
-        self.learning    = "Agentic workflows & production-grade LLM systems"
-        self.fun_fact    = "Photographer at heart — I see patterns everywhere 📷"
-
-    def say_hi(self):
-        print("Thanks for dropping by. Let's build something intelligent.")
-```
-
-<br/>
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-**🤖 AI / GenAI**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-0A9396?style=for-the-badge&logoColor=white)
-
-**🐍 Languages & Core**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**📊 Data & ML**
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-**☁️ Cloud, Viz & Tools**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
-<br/>
-
-## 🚀 Featured Projects
+<!-- ─── FRONT MATTER ────────────────────────────────────────────── -->
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="62%" valign="top">
 
+### THE LEDE
 
+> **Y**ogananda is a final-year Computer Science (Data Science) student at CMRIT, Bangalore — but that's the least interesting sentence in this document. He writes software that *thinks*. He builds chatbots that remember, vision systems that recognize, and recommendation engines that reason. His tool of choice is Python; his playground is the open-source AI stack; his mission is to make intelligence accessible.
 
-### 📸 AI Event Photo Organizer
-*Facial recognition for thousands of photos*
+*He is, in his own words, "still early — but early with intent."*
 
-Desktop app that ingests QR-code guest registrations, runs face encodings across bulk event photos, and auto-delivers personalized albums via Email & WhatsApp.
+</td>
+<td width="3%"></td>
+<td width="35%" valign="top">
 
-**Stack:** `Python` `OpenCV` `face_recognition` `Tkinter` `Twilio`
+<br/>
+
+**T H E   S T A T S**
+
+`EDUCATION` &nbsp;&nbsp; 8.69 CGPA
+`SCHOOL` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CMRIT, Bangalore
+`GRADUATING` &nbsp; 2026
+`BASED IN` &nbsp;&nbsp;&nbsp; Bangalore, IN
+`LANGUAGES` &nbsp;&nbsp; EN · TE · KN · HI
+`STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open to work
 
 </td>
 </tr>
+</table>
+
+![divider](./assets/divider.svg)
+
+<!-- ─── DISPATCH ────────────────────────────────────────────────── -->
+
+![dispatch](./assets/dispatch.svg)
+
+![divider](./assets/divider.svg)
+
+<!-- ─── FEATURE STORY : PROJECTS ────────────────────────────────── -->
+
+<table>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2">
 
-### ❤️ Heart Disease Prediction
-*ML-powered diagnostic tool*
+### ❧ &nbsp; THE FEATURE &nbsp; ❧
 
-Trained Logistic Regression, Random Forest, and KNN classifiers on health parameters and wrapped them in an accessible cross-platform GUI for real-time risk prediction.
+# Four projects. Four arguments for hiring me.
 
-**Stack:** `scikit-learn` `Pandas` `NumPy` `Tkinter`
+*Each one began as a problem someone actually had.*
 
 </td>
-<td width="50%" valign="top">
+</tr>
 
-### 💬 Personalized RAG Chatbot
-*Context-aware assistant on AWS Bedrock*
+<tr>
+<td width="48%" valign="top">
 
-Retrieval-augmented chatbot tailored to business knowledge — scalable, domain-specific, and deployed with a clean React front end.
+<br/>
 
-**Stack:** `AWS Bedrock` `RAG` `FastAPI` `S3` `React`
+`№ 01  ·  ENTERPRISE AI`
+
+## Deals Print
+
+### *The pre-sales problem, solved by a prompt.*
+
+**P**roduct owners walk into client meetings under-prepared. So we built a workflow that reads a client's stated requirements, maps them against our full product catalog, and returns the three offerings most likely to close. Result: data-driven suggestions, fewer wasted demos, and a pre-sales cycle that respects everyone's time.
+
+`React`&nbsp;&nbsp;`FastAPI`&nbsp;&nbsp;`AWS Bedrock`&nbsp;&nbsp;`MongoDB`
+
+</td>
+<td width="4%"></td>
+<td width="48%" valign="top">
+
+<br/>
+
+`№ 02  ·  COMPUTER VISION`
+
+## Photo Organizer
+
+### *Facial recognition, at event scale.*
+
+**T**he wedding photographer's nightmare: two thousand photos, four hundred guests, one weekend deadline. The fix — QR-code guest registration feeding a face-encoding pipeline that auto-sorts images into per-guest albums and ships them via WhatsApp and email. A desktop GUI keeps photographers in control.
+
+`Python`&nbsp;&nbsp;`OpenCV`&nbsp;&nbsp;`face_recognition`&nbsp;&nbsp;`Twilio`
+
+</td>
+</tr>
+
+<tr><td colspan="3"><br/></td></tr>
+
+<tr>
+<td width="48%" valign="top">
+
+`№ 03  ·  APPLIED ML`
+
+## Cardiac Risk Predictor
+
+### *A classifier with a conscience.*
+
+**H**ealth parameters go in; a calibrated probability of heart disease comes out. Under the hood: Logistic Regression, Random Forest, and K-Nearest Neighbors, benchmarked and tuned. On top: a Tkinter GUI simple enough for a clinician to use in under thirty seconds. Not a diagnosis — a signal worth acting on.
+
+`scikit-learn`&nbsp;&nbsp;`Pandas`&nbsp;&nbsp;`NumPy`&nbsp;&nbsp;`Tkinter`
+
+</td>
+<td width="4%"></td>
+<td width="48%" valign="top">
+
+`№ 04  ·  GENERATIVE AI`
+
+## Bedrock RAG Chatbot
+
+### *Conversation, but with receipts.*
+
+**A** personalized chatbot on AWS Bedrock that pulls from a curated knowledge base before it answers. Every response is grounded, context-aware, and traceable back to source. Built for scale, deployed on the cloud, and designed to reduce the support burden without feeling like a support bot.
+
+`AWS Bedrock`&nbsp;&nbsp;`RAG`&nbsp;&nbsp;`FastAPI`&nbsp;&nbsp;`React`
+
+</td>
+</tr>
+</table>
+
+![divider](./assets/divider.svg)
+
+<!-- ─── THE TOOLKIT ─────────────────────────────────────────────── -->
+
+<table>
+<tr>
+<td width="35%" valign="top">
+
+### THE TOOLKIT
+
+# What I reach for first.
+
+*Not a laundry list. A working set.*
+
+</td>
+<td width="5%"></td>
+<td width="60%" valign="top">
+
+<br/>
+
+**CORE**
+
+`Python` &nbsp;·&nbsp; `SQL` &nbsp;·&nbsp; `Bash`
+
+**AI / GENERATIVE**
+
+`LangChain` &nbsp;·&nbsp; `Hugging Face` &nbsp;·&nbsp; `AWS Bedrock` &nbsp;·&nbsp; `OpenAI` &nbsp;·&nbsp; `RAG pipelines`
+
+**DATA**
+
+`Pandas` &nbsp;·&nbsp; `NumPy` &nbsp;·&nbsp; `PySpark` &nbsp;·&nbsp; `scikit-learn` &nbsp;·&nbsp; `Matplotlib` &nbsp;·&nbsp; `Seaborn`
+
+**INTERFACE**
+
+`HTML` &nbsp;·&nbsp; `CSS` &nbsp;·&nbsp; `React` *(learning)* &nbsp;·&nbsp; `Tkinter`
+
+**INSTRUMENTS**
+
+`Jupyter` &nbsp;·&nbsp; `VS Code` &nbsp;·&nbsp; `Power BI` &nbsp;·&nbsp; `Tableau` &nbsp;·&nbsp; `Git`
+
+</td>
+</tr>
+</table>
+
+![divider](./assets/divider.svg)
+
+<!-- ─── THE NUMBERS ─────────────────────────────────────────────── -->
+
+### THE NUMBERS
+
+# Public record.
+
+<div align="center">
+  <br/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=yogananda2003&show_icons=true&hide_border=true&bg_color=f5f1e8&title_color=c8102e&icon_color=0a0a0a&text_color=0a0a0a&include_all_commits=true&count_private=true" alt="Stats" />
+  &nbsp;
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yogananda2003&layout=compact&hide_border=true&bg_color=f5f1e8&title_color=c8102e&text_color=0a0a0a&langs_count=6" alt="Top languages" />
+  <br/><br/>
+  <img src="https://streak-stats.demolab.com?user=yogananda2003&hide_border=true&background=f5f1e8&stroke=0a0a0a&ring=c8102e&fire=c8102e&currStreakLabel=c8102e&sideLabels=0a0a0a&dates=4a4a4a&currStreakNum=0a0a0a&sideNums=0a0a0a" alt="Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yogananda2003/yogananda2003/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/yogananda2003/yogananda2003/output/github-contribution-grid-snake.svg" alt="Contribution graph snake" />
+</picture>
+
+</div>
+
+![divider](./assets/divider.svg)
+
+<!-- ─── THE NOTES ───────────────────────────────────────────────── -->
+
+<table>
+<tr>
+<td width="48%" valign="top">
+
+### THE NOTES
+
+**Credentials**
+
+› Oracle Cloud Infrastructure 2025 — *Generative AI Professional*
+› Udemy — *The Complete AI Guide: ChatGPT, Generative AI & More*
+
+**Currently studying**
+
+› Agentic AI architectures
+› Vector databases at production scale
+› The philosophy of evaluation — how do you *know* an LLM is good?
+
+</td>
+<td width="4%"></td>
+<td width="48%" valign="top">
+
+### OFF THE RECORD
+
+**B**efore the code, there was a camera. I'm an active member of IRIS, the photography club at CMRIT — I documented our annual fest *Cultura*. I've also spent time with NSS, planting trees and visiting schools to talk about higher education with students who don't yet know they're allowed to want it.
+
+*The common thread, I think, is composition. Whether it's a photograph, a neural network, or a life — you're always deciding what to put in the frame.*
+
+</td>
+</tr>
+</table>
+
+![divider](./assets/divider.svg)
+
+<!-- ─── COLOPHON ────────────────────────────────────────────────── -->
+
+<table>
+<tr>
+<td width="60%" valign="top">
+
+### THE COLOPHON
+
+# Correspondence welcome.
+
+*If any of this resonated — a project, a sentence, a shared obsession — write to me.*
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2)](https://www.linkedin.com/in/yogananda-b-355008270/)
+[![Email](https://img.shields.io/badge/Gmail-Write_me-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=c8102e)](mailto:byogananda6346@gmail.com)
+[![Academic](https://img.shields.io/badge/Academic-CMRIT-0a0a0a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=4285F4)](mailto:yob22csds@cmrit.ac.in)
+
+</td>
+<td width="40%" valign="top">
+
+<br/><br/>
+
+```
+───────────────────────────────
+  THE YOGANANDA JOURNAL
+  Vol. MMXXVI  ·  Issue 01
+───────────────────────────────
+  Publisher  —  Yogananda B
+  Set in     —  Playfair Display
+                & JetBrains Mono
+  Printed at —  github.com
+  Price      —  One ⭐ on a repo
+───────────────────────────────
+```
 
 </td>
 </tr>
@@ -122,71 +277,8 @@ Retrieval-augmented chatbot tailored to business knowledge — scalable, domain-
 
 <br/>
 
-## 📈 GitHub Stats
-
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yogananda2003&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&icon_color=8B5CF6&title_color=8B5CF6" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yogananda2003&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=8B5CF6" alt="Top Languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=yogananda2003&theme=tokyonight&hide_border=true&ring=8B5CF6&fire=8B5CF6&currStreakLabel=8B5CF6" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=yogananda2003&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Graph
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yogananda2003/yogananda2003/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yogananda2003/yogananda2003/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yogananda2003/yogananda2003/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
-<br/>
-
-## 🎓 Certifications & Learning
-
-- 🏅 **Oracle Cloud Infrastructure 2025 — Generative AI Professional** · Oracle
-- 🏅 **The Complete AI Guide: ChatGPT, Generative AI & More** · Udemy
-- 🌱 Currently exploring: **Agentic AI**, **LangGraph**, **vector databases at scale**
-
-<br/>
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/yogananda-b-355008270/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:byogananda6346@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-<a href="mailto:yob22csds@cmrit.ac.in">
-  <img src="https://img.shields.io/badge/Academic-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Academic email" />
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<i>"The best way to predict the future is to build it — preferably with a well-placed prompt."</i>
-
-<br/><br/>
-
-⭐ *If you found something interesting here, consider starring a repo — it genuinely makes my day.*
-
+  <sub><i>— fin —</i></sub>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=yogananda2003&label=readers&color=c8102e&style=flat-square" alt="Readers" />
 </div>
