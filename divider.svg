@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="100%">
+  <defs>
+    <style>
+      @keyframes travel { 0% { cx: 60; } 100% { cx: 1140; } }
+      @keyframes fade   { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+      .line { stroke: #0a0a0a; stroke-width: 1; }
+      .dot  { fill: #c8102e; animation: travel 4s linear infinite, fade 4s linear infinite; }
+      .tick { stroke: #0a0a0a; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="1200" height="40" fill="#f5f1e8"/>
+  <line x1="60"  y1="20" x2="1140" y2="20" class="line"/>
+  <line x1="60"  y1="14" x2="60"   y2="26" class="tick"/>
+  <line x1="600" y1="10" x2="600"  y2="30" class="tick"/>
+  <line x1="1140" y1="14" x2="1140" y2="26" class="tick"/>
+  <circle cy="20" r="4" class="dot"/>
+  <text x="600" y="38" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="#9a9a9a" letter-spacing="4">·  ·  ·</text>
+</svg>

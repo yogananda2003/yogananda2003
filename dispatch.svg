@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,400&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap');
+
+      .display { font-family: 'Playfair Display', Georgia, serif; font-weight: 900; fill: #0a0a0a; }
+      .italic  { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-weight: 400; fill: #4a4a4a; }
+      .mono    { font-family: 'JetBrains Mono', ui-monospace, monospace; fill: #0a0a0a; letter-spacing: 0.2em; }
+      .monoF   { font-family: 'JetBrains Mono', ui-monospace, monospace; fill: #9a9a9a; letter-spacing: 0.2em; }
+      .accent  { fill: #c8102e; }
+
+      @keyframes type1 { 0% { width: 0; } 100% { width: 560px; } }
+      @keyframes type2 { 0% { width: 0; } 100% { width: 480px; } }
+      @keyframes type3 { 0% { width: 0; } 100% { width: 520px; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes rise  { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes drawL { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
+
+      .label   { opacity: 0; animation: rise 0.8s ease-out 0.2s forwards; }
+      .ruleTop { stroke: #0a0a0a; stroke-width: 2; stroke-dasharray: 400; stroke-dashoffset: 400; animation: drawL 1s ease-out forwards; }
+
+      .typewrap { overflow: hidden; display: inline-block; white-space: nowrap; }
+      .tw1 { width: 0; animation: type1 1.4s steps(30, end) 0.6s forwards; }
+      .tw2 { width: 0; animation: type2 1.2s steps(26, end) 2.1s forwards; }
+      .tw3 { width: 0; animation: type3 1.3s steps(28, end) 3.4s forwards; }
+
+      .caret { animation: blink 1s step-end infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="#f5f1e8"/>
+
+  <!-- Section label -->
+  <line x1="60" y1="36" x2="340" y2="36" class="ruleTop"/>
+  <g class="label">
+    <text x="60"  y="28" class="monoF" font-size="10">SECTION 02  ·  DISPATCH</text>
+    <text x="60"  y="74" class="mono"  font-size="13">CURRENTLY SHIPPING</text>
+  </g>
+
+  <!-- Three kinetic lines with typewriter effect using foreignObject for true type animation -->
+  <foreignObject x="60" y="100" width="1100" height="36">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Playfair Display', Georgia, serif; font-size: 28px; color: #0a0a0a; font-weight: 900;">
+      <span class="typewrap tw1" style="border-right: 3px solid #c8102e;">→ retrieval systems that actually remember</span>
+    </div>
+  </foreignObject>
+
+  <foreignObject x="60" y="148" width="1100" height="36">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Playfair Display', Georgia, serif; font-size: 28px; color: #0a0a0a; font-weight: 900;">
+      <span class="typewrap tw2" style="border-right: 3px solid #c8102e;">→ agents that don't hallucinate</span>
+    </div>
+  </foreignObject>
+
+  <foreignObject x="60" y="196" width="1100" height="36">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Playfair Display', Georgia, serif; font-size: 28px; color: #0a0a0a; font-weight: 900;">
+      <span class="typewrap tw3" style="border-right: 3px solid #c8102e;">→ interfaces humans actually use</span>
+    </div>
+  </foreignObject>
+</svg>
